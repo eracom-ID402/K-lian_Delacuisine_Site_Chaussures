@@ -1,0 +1,41 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+header {
+  height: 15vh;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  border: 2px solid silver;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.allin {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image1 {
+  grid-column-start: 2;
+}
+.image2 {
+  grid-column-start: 1;
+}
+
+.image3 {
+  grid-column-start: 3;
+}
