@@ -1,41 +1,134 @@
-body {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 20px;
-}
+  * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
 
+}
 header {
-  height: 15vh;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.logoh {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
 }
 
-li {
+.medikh {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 100px;
+}
+
+.menus {
   display: flex;
-  justify-content: center;
-  border: 2px solid silver;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 90px;
+  font-family: 'Roboto', sans-serif;
 }
 
-ul {
+a {
+  text-decoration: none;
+}
+
+.menus a {
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.photo1 {
+  width: 100%;
+}
+
+.moitphoto {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0%;
 }
 
-h1 {
+.photo2{
+  width: 50%;
+}
+
+footer {
+  padding-top: 50px;
+  background-color: black;
+  color: white;
+  padding-bottom: 50px;
+}
+
+
+
+.contact a {
+  color: white;
+}
+
+.contact {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 75px;
+  font-size: 3vmin;
+  font-weight: 300;
+}
+
+.reseau {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 290px;
+}
+
+.imgrs {
+width: 5%;
+}
+
+
+form {
+  border: 4px solid black;
+  width: 40%;
+  margin-bottom: 50px;
+}
+
+.container {
+  padding: 20px;
+  background-color: black;
+}
+
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 8px;
+}
+
+input[type=submit] {
+  background-color: #A4B8C4;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+h2 {
+  font-weight: 500;
   text-align: center;
 }
-
-.allin {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.image1 {
-  grid-column-start: 2;
-}
-.image2 {
-  grid-column-start: 1;
-}
-
-.image3 {
-  grid-column-start: 3;
+.newsletr {
+  display: flex;
+ justify-content: center;
 }
